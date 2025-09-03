@@ -74,7 +74,8 @@ function About() {
              <div className="">
                     <button className="btn btn-success" style={{backgroundColor:"yellow" ,fontWeight:"bolder"}}>FRANCHISE WITH US</button>
                 </div>
-                </div>
+              <br/><br/>  </div>
+                
             <div className="col-md-5">
                 <img src="public/JOINFAMILY.jpg" alt=""/>
             </div>

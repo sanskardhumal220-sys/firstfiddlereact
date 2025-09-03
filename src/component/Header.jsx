@@ -22,6 +22,7 @@ function Header() {
           <li><Link to="/press release" className="nav-link">PRESS RELEASE</Link></li>
          <li><Link to="/contact" className="nav-link">CONTACT</Link></li>
           <li><Link to="/CAREERS" className="nav-link">CAREERS</Link></li>
+         <li><a href="#" className="nav-link" style={{fontweight:"lighter",fontsize:"15px",border:"1px orange solid" }}>FRANCHISE</a></li>
       </ul>
    </div>
 </div>

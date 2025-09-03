@@ -20,11 +20,11 @@ function Careers() {
                 </div>
             </div>
 <div className="container  ">
-      <br/><br/> <h2 className="text-center mb-3" style={{color:"black"}}>COME WORKS WITH US!</h2>
+      <br/><br/> <h2 className="text-center mb-3" style={{color:"black"}}>COME WORKS <b style={{color:'orange'}}>WITH US!</b></h2>
         <p>First Fiddle is all about innovation, creativity and understanding ever-changing consumer needs. 
             The work environment enables both professional and personal growth.</p>
            <br/><br/>
-           <br/><br/> <h2 className="text-center mb-3" style={{color:"black"}}>HOW TO APPLY!</h2>
+           <br/><br/> <h2 className="text-center mb-3" style={{color:"black"}}>HOW TO <b style={{color:'orange'}}> APPLY!</b></h2>
         <p>First Fiddle is all about innovation, creativity
              and understanding ever-changing consumer needs.
               The work environment enables both professional and personal growth</p>
@@ -33,7 +33,7 @@ function Careers() {
                     
 <div className="container my-5 ">
   <div className='row '>
-    <div class="col-md-6">
+    <div className="col-md-6">
       <br/><br/> <h4 >Steep learning curve</h4>
         <p>Talent and merit are rewarded at First Fiddle<br/> Restaurants. Add value, and see yourself grow!</p>
  <br/><h4 className="text-align mb-2" style={{color:"black",fontWeight:"normal"}}>Growth opportunities</h4>
@@ -43,27 +43,27 @@ function Careers() {
 </div>
 
 
-<div class="col-md-6">
+<div className="col-md-6">
   <div className='p-4 shadow-lg bg-white  rounded' style={{height:"460px"}}>
       <h4 style={{fontWeight:"normal"}}>Share your Details</h4>
       <form>
-        <div class="mb-3">
+        <div className="mb-3">
           <label style={{fontSize:"16px"}}>Your Name:</label>
-          <input type="text" class="form-control" placeholder="Your Name"/>
+          <input type="text" className="form-control" placeholder="Your Name"/>
         </div>
-        <div class="mb-3">
+        <div className="mb-3">
           <label style={{fontSize:"16px"}}>Your Email:</label>
-          <input type="email" class="form-control" placeholder="Your Email"/>
+          <input type="email" className="form-control" placeholder="Your Email"/>
         </div>
-        <div class="mb-3">
+        <div className="mb-3">
           <label style={{fontSize:"16px"}}>Your Phone:</label>
-          <input type="text" class="form-control" placeholder="Your Phone"/>
+          <input type="text" className="form-control" placeholder="Your Phone"/>
         </div>
-        <div class="mb-3">
+        <div className="mb-3">
           <label style={{fontSize:"16px"}}>Your Message:</label>
-          <input class="form-control" placeholder="Message"/>
+          <input className="form-control" placeholder="Message"/>
         </div>
-        <button type="submit" class="btn btn-warning">Submit</button>
+        <button type="submit" className="btn btn-warning">Submit</button>
       </form>
     </div>
 </div>

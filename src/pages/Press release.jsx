@@ -23,7 +23,8 @@ function Press() {
 
                 </div>
             </div>
-            <br /><br /> <div className="row">
+              <div className='container'>         
+            <div className="row">
                 <div className="col-md-3"><img src="public/1.png" alt="" style={{ width: "250px" }} />
                 </div>
                 <div className="col-md-3"><img src="public/2.png" alt="" style={{ width: "250px" }} />
@@ -50,14 +51,15 @@ function Press() {
                 </div>
                 <br />
                 <br />
+                </div>
 
 
             </div>
             <div className='container py-5 '>
                 <div className='row box'>
                 
-                    <div class="text-center">
-                        <h5 class="text-uppercase" style={{ fontWeight: "bold", fontSize: "21px" }}>Online Mentions</h5>
+                    <div className="text-center">
+                        <h5 className="text-uppercase" style={{ fontWeight: "bold", fontSize: "21px" }}>Online Mentions</h5>
 
                         </div>
                         <div className='col-md-6 mt-6 r'>
